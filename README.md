@@ -387,8 +387,8 @@ Google ve Facebook ile giriş `Sosyal Giriş` grubundan açılır; önce ikas pa
 
 ## 10. Cilt testi · Skin quiz
 
-Cilt testi, alıcıya üç soru sorar ve cevaplara uyan ürünleri mağazanın kendi ürün bilgisinden seçer. Elle ürün listesi tutmanız gerekmez.
-*Three questions pick matching products from your own product data.*
+Cilt testi, alıcıya sizin belirlediğiniz soruları sorar ve cevaplara uyan ürünleri mağazanın kendi ürün bilgisinden seçer. Demoda üç soru var; istediğiniz kadar soru ekleyebilirsiniz. Elle ürün listesi tutmanız gerekmez.
+*Your questions pick matching products from your own product data. The demo uses three; add as many as you need.*
 
 ![Cilt testi: alıcı tarafı](images/04-cilt-testi-akis.png)
 
