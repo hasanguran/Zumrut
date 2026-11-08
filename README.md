@@ -5,6 +5,7 @@
 Zümrüt, cilt bakımı, makyaj ve koku mağazaları için koyu ve zarif bir ikas temasıdır. Bu rehber temayı kurmayı ve her bölümün ayarını editörde ya da panelde nerede bulacağınızı adım adım anlatır.
 *A dark, refined ikas theme for skincare, makeup and fragrance stores. This guide shows how to set it up and where every setting lives.*
 
+**ikas Tema Mağazası / ikas Theme Store:** https://themes.ikas.com/tr/temalar/27db988f-cc29-407e-83d0-03721f578565  
 **Canlı önizleme / Live preview:** https://dev-mustafa1.ikas.shop
 
 > Editördeki yollar `Sayfa › Bölüm › Ayar grubu › Alan` biçiminde yazılmıştır. Örnek: `Anasayfa › Hero › İçerik › Üst etiket`.
