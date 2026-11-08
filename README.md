@@ -2,8 +2,8 @@
 
 ![Zümrüt](images/kapak.png)
 
-Zümrüt, cilt bakımı, makyaj ve koku mağazaları için koyu ve editoryal bir ikas temasıdır. Bu rehber temayı kurmayı ve her bölümün ayarını editörde ya da panelde nerede bulacağınızı adım adım anlatır.
-*A dark, editorial ikas theme for skincare, makeup and fragrance stores. This guide shows how to set it up and where every setting lives.*
+Zümrüt, cilt bakımı, makyaj ve koku mağazaları için koyu ve zarif bir ikas temasıdır. Bu rehber temayı kurmayı ve her bölümün ayarını editörde ya da panelde nerede bulacağınızı adım adım anlatır.
+*A dark, refined ikas theme for skincare, makeup and fragrance stores. This guide shows how to set it up and where every setting lives.*
 
 **Canlı önizleme / Live preview:** https://dev-mustafa1.ikas.shop
 
@@ -75,7 +75,17 @@ Editörde her alanın altında o alanın ne işe yaradığını anlatan kısa bi
 Header her sayfada görünür; duyuru çubuğu, menü, arama, açık / koyu düğmesi, favoriler ve yan sepet buradan yönetilir.
 *The header appears on every page and holds the announcement bar, menu, search, theme switch, favorites and cart drawer.*
 
-![Header ve ilk ekran](images/13-ilk-ekran.jpg)
+![Header: editör → site](images/e01-header.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Duyuru Çubuğu › Metin` | Üstteki duyuru |
+| 2 | `Duyuru Çubuğu › Kapatılabilsin` | Duyuruyu kapatma düğmesi |
+| 3 | `Menü › Bağlantılar` | Ana menü |
+| 4 | `Kısayollar › Öne çıkan bağlantı yazısı` | "Ritüelini bul" düğmesi |
+
+<details>
+<summary>Bütün ayar grupları · All setting groups</summary>
 
 | Ayar grubu | Neyi değiştirir |
 |---|---|
@@ -89,11 +99,23 @@ Header her sayfada görünür; duyuru çubuğu, menü, arama, açık / koyu dü�
 | Renk Şeması ve Açık / Koyu | Sitenin şeması ve ziyaretçi açık / koyu düğmesi (14. başlık) |
 | Görünüm | Header arka planı, sayfa geçişinde yükleme çizgisi, buton köşe yuvarlaklığı ve üzerine gelme parlaklığı |
 
+</details>
+
 ---
 
 ## 3. Footer
 
-![Footer](images/19-footer.jpg)
+![Footer: editör → site](images/e07-footer.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Bülten › Başlık` | Bülten başlığı |
+| 2 | `Bülten › İzin kutusunu göster` | E-posta izin kutusu |
+| 3 | `Marka › Büyük marka yazısı` | Büyük marka yazısı |
+| 4 | `Alt Satır › Ödeme yöntemleri` | Ödeme logoları |
+
+<details>
+<summary>Bütün ayar grupları · All setting groups</summary>
 
 | Ayar grubu | Neyi değiştirir |
 |---|---|
@@ -102,6 +124,8 @@ Header her sayfada görünür; duyuru çubuğu, menü, arama, açık / koyu dü�
 | Marka | Büyük marka yazısı ya da logo görseli |
 | Alt Satır | Telif satırı, sosyal medya hesapları, ödeme yöntemi logoları, dil ve para birimi seçici |
 | Görünüm | Arka plan rengi, arka plan görseli ve görsel karartma oranı |
+
+</details>
 
 Sosyal medya ve ödeme yöntemleri liste olarak eklenir; kendi ikonunuzu ya da logonuzu yükleyebilirsiniz.
 *Social links and payment logos are lists; you can upload your own icons.*
@@ -133,6 +157,20 @@ Ana sayfada 10 bölüm vardır. Bölümlerin sırası editörde sürükleyerek d
 Hero, sayfanın ilk ekranıdır; görsel ya da video, başlık, iki buton ve bir ürüne işaret eden nokta içerir.
 *The first screen: image or video, headline, two buttons and a product hotspot.*
 
+![Hero: editör → site](images/e02-hero.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Ürün Noktası › Öne çıkan ürün` (yeri: Yatay / Dikey konum) | Görseldeki ürün noktası |
+| 2 | `Ürün Noktası › Ana butonda ürün fiyatını göster` | Ana butondaki fiyat |
+| 3 | `Kanıt Satırı › Kanıt satırı` | Alttaki kanıt maddeleri |
+
+Başlık, açıklama ve butonların editördeki yeri 1. başlıkta gösterilir.
+*Headline and button fields are shown in section 1.*
+
+<details>
+<summary>Bütün ayar grupları · All setting groups</summary>
+
 | Ayar grubu | Neyi değiştirir |
 |---|---|
 | İçerik | Üst etiket, iki satır başlık, açıklama, iki buton; metin konumu masaüstü ve telefon için ayrı seçilir |
@@ -142,30 +180,60 @@ Hero, sayfanın ilk ekranıdır; görsel ya da video, başlık, iki buton ve bir
 | Görsel Örtüsü | Yazının okunması için görselin üstüne binen gölgenin rengi, yoğunluğu ve genişliği |
 | Görünüm | Bölüm yüksekliği (masaüstü ve telefon ayrı) |
 
+</details>
+
 ### 4.2 Kategori karoları · Category tiles
 
-![Kategori karoları](images/14-kategori-karolari.jpg)
+![Kategori karoları: editör → site](images/e03-kategori-karolari.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `İçerik › Üst etiket` | Üst etiket |
+| 2 | `İçerik › Başlık` | Başlık |
+| 3 | `İçerik › Bağlantı yazısı` | "Tüm ürünleri gör" bağlantısı |
+| 4 | `İçerik › Kutular` | Kategori kutuları |
 
 Her kutuya bir kategori, görsel ve bağlantı verilir. Kutular masaüstünde ve telefonda kaydırmalı (slider) gösterilebilir; görünür kutu adedi ayrı ayrı seçilir.
 *Each tile has a category, image and link; slider and visible count are set per device.*
 
 ### 4.3 Cilt testi bandı · Promo banner
 
-![Cilt testi bandı](images/15-cilt-testi-bandi.jpg)
+![Cilt testi bandı: editör → site](images/e04-cilt-testi-bandi.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `İçerik › Üst etiket` | Üst etiket |
+| 2 | `İçerik › Başlık` | Başlık |
+| 3 | `İçerik › Açıklama` | Açıklama |
+| 4 | `İçerik › Buton yazısı` | Buton |
 
 Bant herhangi bir sayfaya ya da kampanyaya yönlendirebilir. **Geri Sayım** grubunda bitiş tarihi girilirse bant geri sayım gösterir; boş bırakılırsa geri sayım çıkmaz.
 *Links anywhere; add an end date to show a countdown.*
 
 ### 4.4 Ürün vitrini · Product showcase
 
-![Ürün vitrini](images/16-urun-vitrini.jpg)
+![Ürün vitrini: editör → site](images/e05-urun-vitrini.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Sekmeler › Sekmeler` | Sekme düğmeleri |
+| 2 | `Ürün Kartı › Rozetleri göster` | Karttaki indirim, tükendi ve özel alan rozetleri |
+| 3 | `Kaydırma (Slider) › Masaüstü slider` | Kaydırma okları |
+| 4 | `İçerik › Bağlantı yazısı` | "Tümü" bağlantısı |
 
 **Sekmeler** listesine her sekme için bir ad ve ürün listesi eklenir (ör. Çok satanlar, Yeni gelenler). Tek sekme varsa sekme çubuğu gizlenir. **Ürün Kartı** grubunda kart üzerindeki badge'ler ve hızlı ekle düğmesi açılıp kapatılır.
 *Add a name and product list per tab; card badges and quick add can be turned off.*
 
 ### 4.5 Formül ve içerikler · Formula
 
-![Formül ve içerikler](images/17-formul.jpg)
+![Formül: editör → site](images/e06-formul.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `İçerik › Başlık` | Başlık |
+| 2 | `İçerik › Görsel etiketi` | Görselin üstündeki etiket |
+| 3 | `İçerikler › İçerikler` | İçerik satırları |
+| 4 | `Sonuçlar › Sonuçlar` | Sonuç rakamları |
 
 **İçerikler** listesine öne çıkan içerikler, **Sonuçlar** listesine yüzde ve süre gibi rakamlar eklenir. Rakamlar sayfa göründüğünde sayarak açılır.
 *Add key ingredients and result figures; figures count up on scroll.*
@@ -179,10 +247,20 @@ Bant herhangi bir sayfaya ya da kampanyaya yönlendirebilir. **Geri Sayım** gru
 
 ## 5. Kategori sayfası · Category page
 
-<img src="images/20-kategori-sayfasi.jpg" width="600" alt="Kategori sayfası">
-
 Kategori, marka ve arama sonuç sayfaları aynı bölümü (ProductList) kullanır.
 *Category, brand and search pages share one section.*
+
+![Kategori sayfası: editör → site](images/e08-kategori-sayfasi.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Üst Alan › Alt başlık` | Ürün sayısı satırı |
+| 2 | `Filtre ve Sıralama › Sıralama etiketi` | Sıralama menüsü |
+| 3 | `Tanıtım Kartı › Kaçıncı üründen sonra` | Ürünlerin arasındaki tanıtım kartı |
+| 4 | `Daha Fazla Yükle › Daha fazla butonu` | "Daha fazla göster" düğmesi |
+
+<details>
+<summary>Bütün ayar grupları · All setting groups</summary>
 
 | Ayar grubu | Neyi değiştirir |
 |---|---|
@@ -192,6 +270,8 @@ Kategori, marka ve arama sonuç sayfaları aynı bölümü (ProductList) kullan�
 | Daha Fazla Yükle | Sayfada gösterilen ürün sayısı; "daha fazla göster" ya da sonsuz kaydırma |
 | Ürün Kartı | Kart üzerindeki badge'ler, hızlı ekle ve hızlı bakış |
 | Görünüm | Masaüstü ve telefon için sütun adedi |
+
+</details>
 
 ---
 
@@ -256,11 +336,21 @@ Kampanya indirimi sipariş özetinde ayrı bir satır olarak görünür. Cilt te
 
 <p>
 <img src="images/21-sss.jpg" width="49%" alt="SSS">
-<img src="images/22-iletisim.jpg" width="49%" alt="İletişim">
 </p>
 <p>
 <img src="images/23-siparis-takibi.jpg" width="49%" alt="Sipariş takibi">
 </p>
+
+### İletişim
+
+![İletişim: editör → site](images/e09-iletisim.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `İçerik › Üst etiket` | Üst etiket |
+| 2 | `İçerik › Başlık` | Başlık |
+| 3 | `Form Alanları › Telefon alanını göster` | Telefon alanı |
+| 4 | `Metinler › Gönder butonu` | Gönder düğmesi |
 
 Görsel ve metin (ImageText), zengin metin (RichText) ve güven rozetleri (TrustBadges) bölümleri her sayfaya eklenebilir.
 *Image + text, rich text and trust badges can be added to any page.*
@@ -269,7 +359,17 @@ Görsel ve metin (ImageText), zengin metin (RichText) ve güven rozetleri (Trust
 
 ## 9. Üyelik ve hesap sayfaları · Account pages
 
-![Giriş](images/24-giris.jpg)
+![Giriş: editör → site](images/e10-giris.png)
+
+| # | Editörde | Sitede |
+|---|---|---|
+| 1 | `Yan Görsel › Görsel üstü başlık` | Görselin üstündeki başlık |
+| 2 | `Yan Görsel › Avantajlar` | Avantaj maddeleri |
+| 3 | `İçerik › Başlık` | Formun başlığı |
+| 4 | `İçerik › Giriş butonu` | Giriş düğmesi |
+
+Google ve Facebook ile giriş `Sosyal Giriş` grubundan açılır; önce ikas panelinde bu girişlerin açık olması gerekir.
+*Social login needs to be enabled in the ikas panel first.*
 
 | Sayfa | Bölüm | Neyi değiştirir |
 |---|---|---|
